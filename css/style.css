@@ -1,0 +1,180 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.registration-form{
+	height: 100vh;
+	/*background: url("../images/front.png");*/
+	background:#000000;;
+    padding: 65px 0px;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+
+}
+.form-box
+{
+	width: 70%;
+	justify-content: center;	
+	margin: 0 auto;
+	display: flex;	
+}
+.left
+{
+
+	flex-basis: 40%;
+	background: #8bc34a;
+	padding: 36px;
+	border-radius: 2px 0px 0px 2px;
+}
+.right
+{
+
+	flex-basis: 50%;
+	padding: 35px 20px;
+	background: white;
+	border-radius: 0px 2px 2px 0px;
+}
+.left h3
+{
+
+	color: #FFFFFF;
+	font-size: 28px;
+	padding-left: 5px;
+	margin: 26px 0px 25px 0px;
+    font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+}
+
+.left p
+{
+	color: #1b1c1d;
+	font-size: 12px;
+	font-weight: 300;
+	padding-bottom: 10px;
+	/*! padding-top: 5px; */
+	
+	margin: 0px 0px 26px 5px;
+	font-family: 'Poppins', sans-serif;
+}
+.btn button{
+
+	background: white;
+	border: none;
+	padding: 10px 20px;
+	color: #171617;
+	font-weight: 600;
+	font-family: 'Poppins', sans-serif;
+	border-bottom-right-radius: 8px;	
+	border-top-left-radius: 8px;
+	margin-bottom: 70px;
+	margin-left: 4px;
+}
+
+.left span
+{
+	color: white;
+	font-weight: 600;
+	font-family: 'Poppins', sans-serif;
+}
+
+.btn{
+	padding-bottom: 40px;
+	transition: 0.5s;
+}
+.btn:hover
+{
+	transform: translateY(10px);
+	transition: 0.5s;
+}
+
+form 
+{
+ margin: 15px;;
+}
+ form input
+ {
+	display: block;
+    width: 99%;
+    margin-bottom: 12px;
+    padding-bottom: 20px;
+    margin-top: 6px;
+    color: grey;
+}
+.top-text
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+a
+{
+	color: #464748;
+}
+
+.middle
+{
+    width: 97%;
+    padding-left: 3px;
+}
+
+.last
+{
+	display: inline-block !important;
+	width: auto;
+	
+}
+.right h3
+{
+	font-weight: 600;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	margin-left: 14px;
+	margin-bottom: 20px;
+	margin-top: 40px;	
+	color: ##464748;
+	font-size: 28px;
+}
+
+.top label
+{
+	color: #8a7777;
+	font-size: 14px;
+	font-weight: 300;
+	font-family: 'Poppins', sans-serif;
+	
+}
+.input-id
+{
+	
+ width:  94%;
+
+}
+.middle label
+{
+    color: #806a6a;
+	font-size: 13px;
+	font-weight: 300;
+	font-family: 'Poppins', sans-serif;
+}
+
+.submit-btn
+{
+	width: 38%;
+	border-radius: 8px 0px 8px 0px;
+	border: none;
+	margin: 13px 4px;
+	color: white;
+	font-weight: 600;
+	transition: 0.5s;
+	background: #181819;
+	padding: 12px 14px 17px 3px;
+}
+
+.submit-btn:hover
+{
+	transform: translateY(10px);
+	transition: 0.5s;
+	cursor: pointer;
+}
